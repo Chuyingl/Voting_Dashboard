@@ -13,6 +13,7 @@ class NgQuestionDal {
                   reject(err);
                   return;
               }
+              console.log(docs)
               resolve(docs);
           })
       })  
